@@ -4,9 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Emmet Tutorial</title>
 </head>
 <body>
+
+/* Common Attributes  */
+
+h1>p          //command hit with tab button make sure courser at the end of commend
+<h1>
+  <p></p>
+</h1>
+
+h1+p          //command hit with tab button make sure courser at the end of commend
+<h1></h1>
+  <p></p>
+
+p>span>{$}        //command hit with tab button make sure courser at the end of commend
+<p>
+  <span>1</span>
+</p>
+
+ul>li{$}*3      //command hit with tab button make sure courser at the end of commend
+ <ul>
+   <li>1</li>
+   <li>2</li>
+   <li>3</li>
+ </ul>
+
+ul>li.item$*3  //command hit with tab button make sure courser at the end of commend
+<ul>
+  <li class="item1"></li>
+  <li class="item2"></li>
+  <li class="item3"></li>
+</ul>
+
+
+ /* Custome Attributes */
 
 h$[title=item$]{this is number $}*4     //command hit with tab button make sure courser at the end of commend
 <h1 title="item1">this is number  1</h1>
@@ -130,6 +163,12 @@ div>(header>ul>li*3>a)+(footer>h1>p)          //command hit with tab button make
   </footer>
 </div>
 
-
+/* Reverse Numbering */
+ul>li.item$@-*3       //command hit with tab button make sure courser at the end of commend
+<ul>
+  <li class="item3"></li>
+  <li class="item2"></li>
+  <li class="item1"></li>
+</ul>
 </body>
 </html>
