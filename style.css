@@ -1,0 +1,115 @@
+
+/* Emmet css */
+
+pos
+position: relative;
+
+pos:s or pos:a or pos:f
+position: static;
+t
+top: ;
+
+cl or cl:r or cl:l
+clear: both;
+
+d:i
+display: inline;
+
+d:if
+display: -webkit-inline-flex;
+display: -ms-inline-flex;
+display: inline-flex;
+
+v or v:h
+visibility: hidden;
+
+zo
+zoom:1;
+
+ovs
+-ms-overflow-style: scrollbar;
+overflow-style: scrollbar;
+
+res or res:n
+resize: ;
+
+cp:r
+clip: rect(top right bottom left);
+cur:h or cur:t
+cursor: hand;
+
+m or m:a or mt or mr
+margin-right: ;
+
+p or pt or pr or pl or pb
+padding: ;
+
+bg
+background: #000;
+
+bg+ or bgc or bgc:t
+background: #fff url() 0 0 no-repeat;
+ma
+
+c
+color: #000;
+
+'op'
+opacity: ;
+background-repeat: repeat-x;
+max-resolution: res;
+
+bxz
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+
+maw
+max-width: ;
+
+f
+font: ;
+
+f+ or fw fs fs fs:o or fs:s fz or ff:f
+font: 1em Arial,sans-serif;
+
+v:tt
+vertical-align: text-top;
+
+ol or ol:w or ols or olc
+outline: ;
+
+ tbl ,tbl:f
+table-layout: ;
+
+ ec or ec:h
+empty-cells: ;
+empty-cells: hide;
+
+bd or nhg+ nhi bds:n
+border: ;
+
+bd
+-o-border-image: url();
+border-image: url();
+
+@f+
+@font-face {
+  font-family: 'FontName';
+  src: url('FileName.eot');
+  src: url('FileName.eot?#iefix') format('embedded-opentype'),
+     url('FileName.woff') format('woff'),
+     url('FileName.ttf') format('truetype'),
+     url('FileName.svg#FontName') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family:;
+  src:url();
+}
+
+ai
+ -ms-align-items: ;
+ align-items: ;
+
+/* End Emmet css */
